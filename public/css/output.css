@@ -784,16 +784,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .bg-product-1 {
-  background-image: url('../../src/assets/images/image-product-1.jpg');
+  background-image: url('../assets/images/image-product-1.jpg');
 }
 .bg-product-2 {
-  background-image: url('../../src/assets/images/image-product-2.jpg');
+  background-image: url('../assets/images/image-product-2.jpg');
 }
 .bg-product-3 {
-  background-image: url('../../src/assets/images/image-product-3.jpg');
+  background-image: url('../assets/images/image-product-3.jpg');
 }
 .bg-product-4 {
-  background-image: url('../../src/assets/images/image-product-4.jpg');
+  background-image: url('../assets/images/image-product-4.jpg');
 }
 .bg-cover {
   background-size: cover;
@@ -912,16 +912,16 @@ video {
 }
 @font-face {
     font-family: kumbh-sans-regular;
-    src: url('../../src/assets/fonts/KumbhSans-Regular.woff2')format('woff2'),
-        url('../../src/assets/fonts/KumbhSans-Regular.woff')format('woff'),
-        url('../../src/assets/fonts/KumbhSans-Regular.ttf')format('truetype');
+    src: url('../assets/fonts/KumbhSans-Regular.woff2')format('woff2'),
+        url('../assets/fonts/KumbhSans-Regular.woff')format('woff'),
+        url('../assets/fonts/KumbhSans-Regular.ttf')format('truetype');
     font-display: swap;
 }
 @font-face {
     font-family: kumbh-sans-bold;
-    src: url('../../src/assets/fonts/KumbhSans-Bold.woff2')format('woff2'),
-        url('../../src/assets/fonts/KumbhSans-Bold.woff')format('woff'),
-        url('../../src/assets/fonts/KumbhSans-Bold.ttf')format('truetype');
+    src: url('../assets/fonts/KumbhSans-Bold.woff2')format('woff2'),
+        url('../assets/fonts/KumbhSans-Bold.woff')format('woff'),
+        url('../assets/fonts/KumbhSans-Bold.ttf')format('truetype');
     font-display: swap;
 }
 .first-letter\:capitalize::first-letter {
