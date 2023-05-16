@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: kumbh-sans-regular;
+    src: url('../../src/assets/fonts/KumbhSans-Regular.woff2')format('woff2'),
+        url('../../src/assets/fonts/KumbhSans-Regular.woff')format('woff'),
+        url('../../src/assets/fonts/KumbhSans-Regular.ttf')format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: kumbh-sans-bold;
+    src: url('../../src/assets/fonts/KumbhSans-Bold.woff2')format('woff2'),
+        url('../../src/assets/fonts/KumbhSans-Bold.woff')format('woff'),
+        url('../../src/assets/fonts/KumbhSans-Bold.ttf')format('truetype');
+    font-display: swap;
+}
+
+@layer components {
+    .btn-controller-carousel:hover .path-svg {
+        @apply stroke-orange
+    }
+
+    .btn-close-carousel .path-svg {
+        @apply fill-white
+    }
+
+    .btn-close-carousel:hover .path-svg {
+        @apply fill-orange
+    }
+
+    .btn-img-thumbnail {
+        @apply transition-all duration-300 overflow-hidden w-24 rounded-md blur-sm hover:cursor-pointer hover:blur-none focus:outline focus:outline-orange focus:outline-4 focus:blur-none
+    }
+
+    .link-navbar {
+        @apply md:hover:font-kumbh-bold md:relative md:h-full md:hover:after:absolute md:hover:after:bg-orange md:hover:after:w-full md:hover:after:h-1 md:hover:after:left-0 md:hover:after:-bottom-12
+    }
+}

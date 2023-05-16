@@ -1,0 +1,10 @@
+node_modules
+design
+README-template.md
+.eslintrc.js
+package-lock.json
+package.json
+postcss.config.js
+style-guide.md
+tailwind.config.js
+README.md
